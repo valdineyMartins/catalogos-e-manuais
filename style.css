@@ -178,6 +178,12 @@ main {
     height:auto;
 
 }
-
+#pdf {
+  width: 100%;       /* ocupa toda a largura disponível */
+  height: 80vh;      /* altura proporcional à tela (80% da viewport) */
+  border: none;      /* remove borda */
+  max-width: 1200px; /* limite opcional para telas grandes */
+  margin: 0 auto;    /* centraliza */
+}
 
 }
