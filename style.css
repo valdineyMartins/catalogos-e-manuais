@@ -8,23 +8,50 @@ body {
 }
 
 /* Cabeçalho */
-header {
-    background-color: #131413;
-    color: white;
-    padding: 20px;
-    text-align: center;
+
+
+/* style.css */
+
+/* Menu fixo no topo */
+nav {
+    position: fixed;   /* fixa o menu na tela */
+    top: 0;            /* cola no topo */
+    left: 0;
+    width: 100%;       /* ocupa toda a largura */
+    background-color: #444;
+    z-index: 1000;     /* fica acima do conteúdo */
 }
 
-/* Navegação */
+/* Estilo da lista */
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    background: #333;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 10px 0;
 }
 
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #666;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Espaço para não esconder o conteúdo atrás do menu */
+main {
+    margin-top: 70px;  /* ajuste conforme a altura do menu */
+    text-align: center;
+}
 nav ul li {
     margin: 0;
 }
@@ -60,7 +87,12 @@ button {
 button:hover {
     background: #141414;
 }
-
+.paginaInicial{
+    margin-top: 150px;
+    width: 100%;
+    height: auto;
+   text-align: center;
+}
 /* Rodapé */
 footer {
     background: #333;
@@ -72,6 +104,11 @@ footer {
     width: 100%;
 }
 img{
+    width:50%;
+    height: auto;
+}
+#img1{
+    margin-top: 30px;
     width:50%;
     height: auto;
 }
@@ -109,10 +146,19 @@ footer a{
     text-decoration: none;
     
 }
+main {
+    margin-top: 80px; /* ajuste conforme a altura do menu */
+}
+iframe{
+    width:100%;
+    height:1000px;
+    float: left;
+}
 @media (max-width: 720px) {
  img{
     width:100%;
     height: auto;
+   
 }
 #baner{
     width:100%;
@@ -122,5 +168,16 @@ footer a{
     width: 100%;
     text-align: center;
 }
+#img1{
+    margin-top: 70px;
+    width:100%;
+    height: auto;
+}
+#paginaInicial{
+    margin-top: 120px;
+    width: 100;
+    height:auto;
+
 }
 
+}
