@@ -33,6 +33,7 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+    transform: scale(1);
 }
 
 nav ul li a {
@@ -44,7 +45,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #666;
     border-radius: 5px;
-    padding: 5px;
+    
 }
 
 /* Espaço para não esconder o conteúdo atrás do menu */
@@ -165,18 +166,17 @@ main {
     height: auto;
 }
 #video{ 
-    margin-top: 50px;;
+    margin-top: 20px;;
     padding:  40px;
     width: 25%;
     height: auto;
-    border-radius: 70px;
+    border-radius: 50px;
    text-align: center;
 }
 h1{
     text-align: center;
-    margin-top: 70px;
+    margin-top: 100px;
 }
-
 @media (max-width: 720px) {
  img{
     width:100%;
@@ -225,8 +225,12 @@ h1{
 }
 h1{
     text-align: center;
-    margin-top: 120px;
+    margin-top: 50px;
     
+}
+h1{
+    text-align: center;
+    margin-top: 5px;
 }
 
 }
