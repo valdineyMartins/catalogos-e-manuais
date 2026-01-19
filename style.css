@@ -160,12 +160,12 @@ main {
     width: 100%;
     height: 900px;
 }
-.video{
+.destaques{
     text-align: center;
     width: 100%;
     height: auto;
 }
-#video{ 
+#destaques{ 
     margin-top: 20px;;
     padding:  40px;
     width: 25%;
@@ -176,6 +176,24 @@ main {
 h1{
     text-align: center;
     margin-top: 100px;
+}
+.aprender{
+    margin-top: 100px;
+    width: 90%;
+    height: 800px;
+    background-color: #141414;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.aprender img{
+    padding: 50px;
+    width: 300px;
+    height: auto;
+    object-fit: cover; /* ou 'contain' dependendo do efeito desejado */
+}
+video{
+    padding: 50px;
 }
 @media (max-width: 720px) {
  img{
@@ -215,7 +233,7 @@ h1{
     height: auto;
    text-align: center;
 }
-#video{ 
+#destaques{ 
     padding: 0px;
     width: 100%;
     height: auto;
@@ -231,6 +249,12 @@ h1{
 h1{
     text-align: center;
     margin-top: 5px;
+}
+.aprender img{
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    object-fit: cover; /* ou 'contain' dependendo do efeito desejado */
 }
 
 }
