@@ -250,7 +250,12 @@ h1{
     text-align: center;
     margin-top: 5px;
 }
+.aprender{
+    margin-top: 200px;
+  
+}
 .aprender img{
+    
     padding: 20px;
     width: 90%;
     height: auto;
