@@ -268,5 +268,29 @@ nav ul li a {
     font-size: 130%;
 }
 
-
 }
+.aprender {
+    display: flex;
+    flex-wrap: wrap; /* permite quebrar linha em telas menores */
+    gap: 20px;       /* espaço entre imagens */
+    justify-content: center;
+}
+
+.aprender figure {
+    text-align: center; /* centraliza legenda abaixo da imagem */
+    max-width: 300px;   /* controla largura máxima */
+}
+
+.aprender img {
+    width: 100%;        /* imagem ocupa toda a largura do figure */
+    height: auto;       /* mantém proporção */
+    border-radius: 60px; /* opcional: cantos arredondados */
+}
+
+.aprender figcaption {
+    font-size:20px;
+    color: black;
+    margin-top: 0;
+    padding-top: 0;
+}
+
