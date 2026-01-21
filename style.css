@@ -7,11 +7,6 @@ body {
     color: #333;
 }
 
-/* Cabeçalho */
-
-
-/* style.css */
-
 /* Menu fixo no topo */
 nav {
     position: fixed;   /* fixa o menu na tela */
@@ -164,14 +159,14 @@ main {
     text-align: center;
     width: 100%;
     height: auto;
+    background-color: #141414;
 }
-#destaques{ 
-    margin-top: 20px;;
-    padding:  40px;
-    width: 25%;
+.destaques img{
+    margin-top: 70px;
+    text-align: center;
+    width: 100%;
     height: auto;
-    border-radius: 50px;
-   text-align: center;
+    background-color: #141414;
 }
 h1{
     text-align: center;
