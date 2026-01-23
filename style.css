@@ -180,15 +180,15 @@ h1{
     margin-right: auto;
     text-align: center;
 }
-.aprender img{
-    padding: 50px;
-    width: 300px;
-    height: auto;
-    object-fit: cover; /* ou 'contain' dependendo do efeito desejado */
+.pintores{
+    width: 20%;
+    height: 200px;
+    background-color: #141414;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-radius: 20px;
 }
-video{
-    padding: 50px;
-}
+/*telas menores*/
 @media (max-width: 720px) {
  img{
     width:100%;
@@ -264,28 +264,5 @@ nav ul li a {
 }
 
 }
-.aprender {
-    display: flex;
-    flex-wrap: wrap; /* permite quebrar linha em telas menores */
-    gap: 20px;       /* espaço entre imagens */
-    justify-content: center;
-}
 
-.aprender figure {
-    text-align: center; /* centraliza legenda abaixo da imagem */
-    max-width: 300px;   /* controla largura máxima */
-}
-
-.aprender img {
-    width: 100%;        /* imagem ocupa toda a largura do figure */
-    height: auto;       /* mantém proporção */
-    border-radius: 60px; /* opcional: cantos arredondados */
-}
-
-.aprender figcaption {
-    font-size:20px;
-    color: black;
-    margin-top: 0;
-    padding-top: 0;
-}
 
