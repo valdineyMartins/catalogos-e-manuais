@@ -15,7 +15,7 @@ body {
 .aprender a{
     text-decoration: none;
     color: black;
-    font-size: 200%;
+    font-size: 250%;
     padding: 1%;
     border-radius: 20px;
     font-weight:bold;
@@ -283,10 +283,7 @@ nav ul li a {
     font-size: 130%;
 }
 .aprender a{
-    color: black;
-    font-size: 400%;
-    font-weight:bold;
-        
+    font-size:250%;
 }
 }
 
