@@ -290,12 +290,8 @@ h1{
 }
 h1{
     text-align: center;
-    margin-top: 50px;
-    
-}
-h1{
-    text-align: center;
-    margin-top: 100px;
+    color: darkblue;
+
 }
 .aprender{
     margin-top: 70px;
@@ -322,7 +318,7 @@ nav ul li a {
     width: 40%;
     height: auto;
     border-radius: 10px;
-  
+ 
 }
 }
 
