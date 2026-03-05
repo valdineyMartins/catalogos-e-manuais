@@ -290,8 +290,12 @@ h1{
 }
 h1{
     text-align: center;
-    color: darkblue;
-
+    margin-top: 50px;
+    
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
 }
 .aprender{
     margin-top: 70px;
@@ -303,22 +307,19 @@ h1{
     height: auto;
     object-fit: cover; /* ou 'contain' dependendo do efeito desejado */
 }
-nav ul li a {
+nav ul li a{
     display: block;
     padding: 5px;
     color: white;
     text-decoration: none;
     font-size: 200%;
 }
-.aprender a{
-     font-size: 150%;
-}
 .botoes img{
     padding: 0px;
     width: 40%;
     height: auto;
     border-radius: 10px;
- 
+  
 }
 }
 
