@@ -265,11 +265,6 @@ main{
     width:100%;
     height: auto;
 }
-#img_grafftex{
-    width: 100%;
-    text-align: center;
-    margin-top: 100px;
-}
 #img1{
     margin-top: 70px;
     width:100%;
@@ -342,6 +337,7 @@ nav ul li a{
     height: auto;
 }
 }
+
 
 
 
