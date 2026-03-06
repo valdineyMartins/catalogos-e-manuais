@@ -263,6 +263,9 @@ h1{
     height: auto;
    
 }
+main{
+ margin-top: 120px;
+}   
 #baner{
     width:100%;
     height: auto;
@@ -343,6 +346,7 @@ nav ul li a{
     height: auto;
 }
 }
+
 
 
 
