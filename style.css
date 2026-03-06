@@ -263,9 +263,6 @@ h1{
     height: auto;
    
 }
-main{
-    margin-top: 100px;
-}
 #baner{
     width:100%;
     height: auto;
@@ -273,7 +270,7 @@ main{
 #img_grafftex{
     width: 100%;
     text-align: center;
-    margin-top: 100px;
+  
 }
 #img1{
     margin-top: 70px;
