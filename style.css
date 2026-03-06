@@ -258,12 +258,22 @@ h1{
 }
 /*telas menores*/
 @media (max-width: 720px) {
+ img{
+    width:100%;
+    height: auto;
+   
+}
 main{
- margin-top: 50px;
-}   
+    margin-top: 100px;
+}
 #baner{
     width:100%;
     height: auto;
+}
+#img_grafftex{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
 }
 #img1{
     margin-top: 70px;
@@ -337,13 +347,6 @@ nav ul li a{
     height: auto;
 }
 }
-
-
-
-
-
-
-
 
 
 
