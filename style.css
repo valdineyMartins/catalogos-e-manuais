@@ -267,10 +267,13 @@ h1{
     width:100%;
     height: auto;
 }
+main{
+     margin-top: 30px;
+}
 #img_grafftex{
     width: 100%;
     text-align: center;
-  
+    margin-top: 100px;
 }
 #img1{
     margin-top: 70px;
