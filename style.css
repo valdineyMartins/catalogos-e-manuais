@@ -259,7 +259,7 @@ h1{
 /*telas menores*/
 @media (max-width: 720px) {
 main{
- margin-top: 100px;
+ margin-top: 50px;
 }   
 #baner{
     width:100%;
@@ -337,6 +337,7 @@ nav ul li a{
     height: auto;
 }
 }
+
 
 
 
