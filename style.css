@@ -256,6 +256,20 @@ h1{
   color:darkblue;
 
 }
+.botoes_catalogos{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;   
+    text-align: center;
+    
+}
+.botoes_catalogos img{
+    padding: 20px;
+    width: 10%;
+    height: auto;
+    border-radius: 35px;
+
+}
 /*telas menores*/
 @media (max-width: 720px) {
  img{
@@ -348,6 +362,14 @@ footer{
     width: 100%;
     height:auto;
    
+}
+.botoes_catalogos img{
+    padding: 0px;
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+  
 }
 }
 
