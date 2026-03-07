@@ -127,10 +127,10 @@ footer {
     background: #333;
     color: white;
     text-align: center;
-    padding: 10px;  
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding:2px;
 }
 img{
     width:50%;
@@ -261,7 +261,6 @@ h1{
  img{
     width:100%;
     height: auto;
-    margin-top: 50px;
    
 }
 #baner{
@@ -271,7 +270,8 @@ h1{
 #img_grafftex{
     width: 100%;
     text-align: center;
-  
+     margin-top: 50px;
+    
 }
 #img1{
     margin-top: 70px;
@@ -344,8 +344,12 @@ nav ul li a{
     width: 100%;
     height: auto;
 }
+footer{
+    width: 100%;
+    height:auto;
+   
 }
-
+}
 
 
 
