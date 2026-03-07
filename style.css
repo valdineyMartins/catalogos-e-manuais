@@ -258,7 +258,7 @@ h1{
 }
 /*telas menores*/
 @media (max-width: 720px) {
- img  img_grafftex{
+ img{
     width:100%;
     height: auto;
    
@@ -267,13 +267,10 @@ h1{
     width:100%;
     height: auto;
 }
-main img{
-     margin-top: 30px;
-}
 #img_grafftex{
     width: 100%;
     text-align: center;
-    margin-top: 100px;
+  
 }
 #img1{
     margin-top: 70px;
@@ -347,7 +344,6 @@ nav ul li a{
     height: auto;
 }
 }
-
 
 
 
