@@ -170,6 +170,10 @@ nav a {
   background: rgb(5, 1, 49);
   border-radius: 4px;
 }
+footer{
+    width: 100%;
+    height: auto;
+}
 footer a{
     color: wheat;
     text-decoration: none;
@@ -357,11 +361,6 @@ nav ul li a{
     margin-top: 60px;
     width: 100%;
     height: auto;
-}
-footer{
-    width: 100%;
-    height:auto;
-   
 }
 .botoes_catalogos img{
     padding: 0px;
