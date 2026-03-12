@@ -283,12 +283,14 @@ h1{
 }
 .o_que_vender button{
     background-color:rgb(5, 1, 49);
+    padding: 20px;
+    width:15%;
+     font-size: 120%;
+   text-align: center;
 }
 .o_que_vender a{
     color: white;
    text-decoration: none;
-   font-size: 150%;
-   text-align: center;
       
 }
 /*telas menores*/
