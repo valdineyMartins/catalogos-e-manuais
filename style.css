@@ -285,7 +285,7 @@ h1{
     background-color:rgb(5, 1, 49);
     padding: 20px;
     width:15%;
-     font-size: 120%;
+    font-size: 120%;
    text-align: center;
 }
 .o_que_vender a{
@@ -404,6 +404,7 @@ nav ul li a{
     margin-top: 5px;
     background-color:rgb(5, 1, 49);
     margin-bottom: 10px;
+    font-size: 200%;
 }
 }
 
