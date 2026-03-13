@@ -242,17 +242,22 @@ h1{
     
 }
 .botoes_aprender{
-    margin-top: 20px;
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
+  width: 100%;
+  height: auto;
+  margin-top: 80px;
+  text-align: center;
 }
-.botoes_aprender img{
+.botoes_aprender button{
+    background-color:rgb(5, 1, 49);
     padding: 20px;
-    margin-top: 120px;
-    width: 30%;
-    height: auto;
+    width:15%;
+    font-size: 120%;
+   text-align: center; 
+}
+.botoes_aprender a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
 }
 
 h1{
@@ -353,13 +358,9 @@ h1{
 }
 .aprender{
     margin-top: 100px;
-  
-}
-.aprender img{
-    padding: 5px;
-    width: 95%;
+    width: 90%px;
     height: auto;
-    object-fit: cover; /* ou 'contain' dependendo do efeito desejado */
+  
 }
 nav ul li a{
     display: block;
@@ -368,18 +369,12 @@ nav ul li a{
     text-decoration: none;
     font-size: 200%;
 }
-.botoes img{
-    padding: 0px;
-    width: 40%;
-    height: auto;
-    border-radius: 10px;
-  
-}
-.botoes_aprender img{
-    padding: 0px;
-    margin-top: 60px;
-    width: 100%;
-    height: auto;
+.botoes_aprender button{
+  width: 90%;
+  height: auto;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .botoes_catalogos img{
     padding: 0px;
@@ -389,7 +384,6 @@ nav ul li a{
     padding: 10px;
   
 }
-
 .o_que_vender{
     margin-top: 60px;
     width: 100%;
