@@ -288,9 +288,9 @@ h1{
 }
 .o_que_vender button{
     background-color:rgb(5, 1, 49);
-    padding: 5px;
-    width:14%;
-    font-size: 80%;
+    padding: 25px;
+    width:18%;
+    font-size:100%;
    text-align: center;
 }
 .o_que_vender a{
