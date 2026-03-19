@@ -10,7 +10,7 @@
 
 }
 #blocos{
-    width: 20%;           /* ajuste o tamanho da imagem */
+    width: 15%;           /* ajuste o tamanho da imagem */
     height: auto;
 }
 @media (max-width: 720px) {
