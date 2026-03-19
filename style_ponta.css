@@ -1,6 +1,6 @@
 .blocos {
-    width: 90%;
-    margin-top: 20px;
+    width: 95%;
+    margin-top: 10px;
     display: flex;          /* coloca os elementos lado a lado */
     background-color:rgb(5, 1, 49);
     color: white;
