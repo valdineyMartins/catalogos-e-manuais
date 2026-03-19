@@ -1,0 +1,27 @@
+.blocos {
+    width: 90%;
+    margin-top: 20px;
+    display: flex;          /* coloca os elementos lado a lado */
+    background-color:rgb(5, 1, 49);
+    color: white;
+    font-size: 19px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#blocos{
+    width: 20%;           /* ajuste o tamanho da imagem */
+    height: auto;
+}
+@media (max-width: 720px) {
+ #blocos{
+    width: 50%;
+    height: 200px;
+   
+}
+.blocos{
+    font-size: 100%;
+   
+}
+
+}

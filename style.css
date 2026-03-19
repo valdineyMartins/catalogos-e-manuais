@@ -37,7 +37,7 @@ body {
 
 /* Menu fixo no topo */
 nav {
-    position: fixed;   /* fixa o menu na tela */
+   
     top: 0;            /* cola no topo */
     left: 0;
     width: 100%;       /* ocupa toda a largura */
@@ -288,8 +288,8 @@ h1{
 }
 .o_que_vender button{
     background-color:rgb(5, 1, 49);
-    padding: 25px;
-    width:18%;
+    padding: 15px;
+    width:auto;
     font-size:100%;
    text-align: center;
 }
@@ -398,7 +398,7 @@ nav ul li a{
     margin-top: 5px;
     background-color:rgb(5, 1, 49);
     margin-bottom: 10px;
-    font-size: 140%;
+    font-size: 100%;
 }
 }
 
