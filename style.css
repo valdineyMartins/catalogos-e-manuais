@@ -287,7 +287,6 @@ h1{
 }
 .o_que_vender button{
     background-color:rgb(5, 1, 49);
-    padding: 15px;
     width:auto;
     font-size:100%;
    text-align: center;
@@ -297,6 +296,22 @@ h1{
    text-decoration: none;
       
 }
+.o_que_vender a button:hover {
+    background-color: orange;/* tom mais escuro no hover */
+    transform: scale(1.05); /* leve aumento */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* sombra */
+    color: #141414;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    background-color: orange; /* verde no hover */
+    color: black;
+    transform: scale(1.1); /* leve aumento */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* sombra */
+}
+
+
+
 /*telas menores*/
 @media (max-width: 720px) {
  img{
